@@ -1,7 +1,5 @@
 # Lessons Learned — Home SOC Lab
 
-Hard-won lessons from building the lab, each a short pairing of what broke and what it taught. This is the judgment layer of the project: the failures, and the habits that came out of them.
-
 ## Architecture and monitoring
 
 - **The infrastructure build is not the portfolio.** The value is in documented detections, MITRE ATT&CK mapping, and investigation writeups. Recognizing this early reframed how the rest of the project was spent, toward detections and documentation rather than more infrastructure.
