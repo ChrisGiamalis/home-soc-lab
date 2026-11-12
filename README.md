@@ -2,7 +2,7 @@
 
 A self-built, network-segmented home Security Operations Center for practicing **detection engineering**, **network security monitoring**, and **incident response** against real attacks in a controlled environment.
 
-> **Status:** Active build. The detection pipeline is complete and validated end to end, with the first ATT&CK-mapped detection (ICMP flood, T1498) fully documented. Additional detections are in progress; see [`ROADMAP.md`](ROADMAP.md).
+> **Status:** Active build. The detection pipeline is complete and validated end to end, with the first ATT&CK-mapped detection (ICMP flood, T1498) fully documented. Additional detections are in progress; see [`ROADMAP.md`](home-soc-lab/docs/ROADMAP.md).
 
 ---
 
