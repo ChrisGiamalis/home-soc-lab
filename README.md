@@ -8,7 +8,7 @@ A self-built, network-segmented home Security Operations Center for practicing *
 
 ## Overview
 
-This lab exists to demonstrate the work a SOC analyst actually does, which is interpreting what sensors produce, not just standing up infrastructure. Attacks are generated on one side and detected on the other through the same intrusion-detection-to-SIEM pipeline an enterprise relies on. Every rule, configuration, and investigation is version-controlled so detections are reproducible rather than one-time screenshots.
+This lab exists to demonstrate the work a SOC analyst actually does, which is interpreting what sensors produce. Attacks are generated on one side and detected on the other through the same intrusion-detection-to-SIEM pipeline an enterprise relies on. Every rule, configuration, and investigation is version-controlled so detections are reproducible rather than one-time screenshots.
 
 The lab runs on three mini-form-factor hosts virtualized with Proxmox, connected through UniFi networking that enforces VLAN segmentation under a default-deny policy. An attacker host launches attacks at deliberately vulnerable targets; a Suricata sensor inspects a passive mirror of that traffic; and a Wazuh SIEM decodes, correlates, alerts, and presents the results for triage.
 
