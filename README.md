@@ -91,8 +91,6 @@ Stated plainly, because knowing the limits of your own tooling is part of the wo
 
 - The lab currently covers **network detection**; host and Windows/Active Directory telemetry are the next build, not yet present.
 - Monitoring is via a **passive port mirror on a USB 2.0 capture adapter**, which drops packets under heavy load, so detection thresholds are tuned to what the observation path actually delivers rather than to theoretical rates.
-- Attacks are **single-source** (one attacker host), so this is DoS rather than DDoS; detections are written to still hold for the distributed case where possible.
-
----
+- Attacks are **single-source** 
 
 *A personal learning and portfolio project. Built and maintained by [Chris Giamalis](https://github.com/ChrisGiamalis).*
